@@ -21,7 +21,7 @@ describe('Help me', () => {
 
   it('3', () => {
     const result = count('0', [[3, 1], [2, 1]]);
-    assert.equal(result, 2);
+    assert.equal(result, 4);
   });
 
   it('4', () => {
